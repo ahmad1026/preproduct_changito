@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@font-face {
+  font-family: Vazir;
+  src: url('../../public/fonts/vazir/Vazir.ttf');
+}
+
+@font-face {
+  font-family: IRANSans;
+  src: url('../../public/fonts/Sanns/IRANSansRegular.ttf');
+}
+
+
+body{
+  background-color: #1C1C1C;
+  font-family: IRANSans;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+/* .MuiOutlinedInput-notchedOutline {
+  border-color: #FFFFFF !important;
+} */
+
+
+
+/* .MuiFilledInput-root {
+  border-bottom: 1px solid #FFFFFF !important;
+}
+
+.MuiInput-root {
+  border-bottom: 1px solid #FFFFFF !important;
+} */
